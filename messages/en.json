@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "collections": "Collections",
+    "about": "About",
+    "exhibitions": "Exhibitions",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "label": "Istanbul · Bridal Lace · Est. 2005",
+    "statement": "Where Bridal Lace Is",
+    "statementItalic": "Chosen, Not Simply Stocked.",
+    "sub": "A curated archive of bridal lace collections for the professionals who make exceptional wedding dresses.",
+    "cta": "View Collections",
+    "ctaSecondary": "Contact via WhatsApp"
+  },
+  "collections": {
+    "title": "Collections",
+    "viewAll": "View All",
+    "featured": "Featured",
+    "filter": {
+      "all": "All"
+    },
+    "detail": {
+      "productCode": "Product Code",
+      "category": "Category",
+      "inquire": "Inquire About This Collection",
+      "whatsappMessage": "Hello, I would like to inquire about the {name} ({code}) collection."
+    }
+  },
+  "about": {
+    "label": "About MY CLUB",
+    "quote": "We do not simply stock lace. We select it.",
+    "body": "MY CLUB curates bridal lace collections for designers and ateliers who cannot afford to be wrong. Two decades of expertise, trust, and long-term relationships.",
+    "readMore": "Read More",
+    "location": "Istanbul",
+    "established": "Est. 2005"
+  },
+  "exhibitions": {
+    "label": "Exhibition Presence",
+    "title": "Exhibitions",
+    "viewAll": "All Exhibitions"
+  },
+  "contact": {
+    "title": "Contact",
+    "whatsapp": "Message on WhatsApp",
+    "phone": "Phone",
+    "email": "Email",
+    "instagram": "Instagram",
+    "cta": {
+      "headline": "Begin a conversation about your next collection.",
+      "sub": "Direct inquiry · No minimum order required for first contact",
+      "button": "Contact via WhatsApp"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "meta": {
+    "home": {
+      "title": "MY CLUB — Bridal Lace | Istanbul",
+      "description": "A curated selection of bridal lace collections for professionals. Istanbul, Est. 2005."
+    },
+    "collections": {
+      "title": "Collections — MY CLUB",
+      "description": "MY CLUB bridal lace collections. Chantilly, Guipure, Corded, Embroidered and more."
+    },
+    "about": {
+      "title": "About — MY CLUB",
+      "description": "About MY CLUB. Two decades of bridal lace expertise, Istanbul."
+    },
+    "exhibitions": {
+      "title": "Exhibitions — MY CLUB",
+      "description": "MY CLUB exhibition presence at bridal and textile fairs."
+    },
+    "contact": {
+      "title": "Contact — MY CLUB",
+      "description": "Contact MY CLUB. WhatsApp, phone or email."
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_note": "Russian content — v2. Architecture ready, content to be added.",
+  "nav": {
+    "collections": "Коллекции",
+    "about": "О нас",
+    "exhibitions": "Выставки",
+    "contact": "Контакты",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "label": "Стамбул · Свадебное кружево · с 2005",
+    "statement": "Кружево здесь не продают.",
+    "statementItalic": "Его выбирают.",
+    "sub": "Тщательно подобранная коллекция свадебного кружева для профессионалов.",
+    "cta": "Посмотреть коллекции",
+    "ctaSecondary": "Написать в WhatsApp"
+  },
+  "collections": {
+    "title": "Коллекции",
+    "viewAll": "Все коллекции",
+    "featured": "Избранное",
+    "filter": {
+      "all": "Все"
+    },
+    "detail": {
+      "productCode": "Артикул",
+      "category": "Категория",
+      "inquire": "Запросить информацию",
+      "whatsappMessage": "Здравствуйте, хочу узнать о коллекции {name} ({code})."
+    }
+  },
+  "about": {
+    "label": "О MY CLUB",
+    "quote": "Мы не просто продаём кружево. Мы его выбираем.",
+    "body": "MY CLUB — куратор коллекций свадебного кружева для дизайнеров и ателье. Двадцать лет экспертизы и доверия.",
+    "readMore": "Подробнее",
+    "location": "Стамбул",
+    "established": "с 2005"
+  },
+  "exhibitions": {
+    "label": "Участие в выставках",
+    "title": "Выставки",
+    "viewAll": "Все выставки"
+  },
+  "contact": {
+    "title": "Контакты",
+    "whatsapp": "Написать в WhatsApp",
+    "phone": "Телефон",
+    "email": "Email",
+    "instagram": "Instagram",
+    "cta": {
+      "headline": "Начните разговор о вашей следующей коллекции.",
+      "sub": "Прямой запрос · Без минимального заказа для первого обращения",
+      "button": "Написать в WhatsApp"
+    }
+  },
+  "footer": {
+    "rights": "Все права защищены"
+  },
+  "meta": {
+    "home": {
+      "title": "MY CLUB — Свадебное кружево | Стамбул",
+      "description": "Тщательно подобранные коллекции свадебного кружева для профессионалов. Стамбул, с 2005."
+    },
+    "collections": {
+      "title": "Коллекции — MY CLUB",
+      "description": "Коллекции свадебного кружева MY CLUB."
+    },
+    "about": {
+      "title": "О нас — MY CLUB",
+      "description": "О компании MY CLUB. Двадцать лет экспертизы в свадебном кружеве."
+    },
+    "exhibitions": {
+      "title": "Выставки — MY CLUB",
+      "description": "Участие MY CLUB в выставках."
+    },
+    "contact": {
+      "title": "Контакты — MY CLUB",
+      "description": "Свяжитесь с MY CLUB."
+    }
+  }
+}

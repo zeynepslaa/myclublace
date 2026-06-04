@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "collections": "Koleksiyonlar",
+    "about": "Hakkımızda",
+    "exhibitions": "Fuarlar",
+    "contact": "İletişim",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "label": "Istanbul · Bridal Lace · Est. 2005",
+    "statement": "Dantel burada satılmaz.",
+    "statementItalic": "Seçilir.",
+    "sub": "Gelinlik tasarımcıları ve atölyeleri için özenle seçilmiş dantel koleksiyonu. Uzmanlık, her parçada hissedilir.",
+    "cta": "Koleksiyonları Gör",
+    "ctaSecondary": "WhatsApp ile İletişim"
+  },
+  "collections": {
+    "title": "Koleksiyonlar",
+    "viewAll": "Tümünü Gör",
+    "featured": "Öne Çıkan",
+    "filter": {
+      "all": "Tümü"
+    },
+    "detail": {
+      "productCode": "Ürün Kodu",
+      "category": "Kategori",
+      "inquire": "Bu Koleksiyon Hakkında Bilgi Al",
+      "whatsappMessage": "Merhaba, {name} ({code}) koleksiyonu hakkında bilgi almak istiyorum."
+    }
+  },
+  "about": {
+    "label": "MY CLUB Hakkında",
+    "quote": "Üretmiyoruz. Seçiyoruz.",
+    "body": "MY CLUB, bridal tasarımcıları ve atölyeleri için özenle seçilmiş dantel koleksiyonları sunar. Yirmi yıllık uzmanlık, güven ve tutarlılıkla inşa edilmiş ilişkiler.",
+    "readMore": "Daha Fazla",
+    "location": "Istanbul",
+    "established": "Est. 2005"
+  },
+  "exhibitions": {
+    "label": "Fuar Katılımları",
+    "title": "Fuarlar",
+    "viewAll": "Tüm Fuarlar"
+  },
+  "contact": {
+    "title": "İletişim",
+    "whatsapp": "WhatsApp ile Yaz",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "instagram": "Instagram",
+    "cta": {
+      "headline": "Koleksiyonunuz için bir konuşma başlatın.",
+      "sub": "Doğrudan iletişim · İlk görüşme için minimum sipariş şartı yok",
+      "button": "WhatsApp ile İletişim"
+    }
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır"
+  },
+  "meta": {
+    "home": {
+      "title": "MY CLUB — Bridal Lace | Istanbul",
+      "description": "Gelinlik tasarımcıları için özenle seçilmiş bridal dantel koleksiyonları. Istanbul, Est. 2005."
+    },
+    "collections": {
+      "title": "Koleksiyonlar — MY CLUB",
+      "description": "MY CLUB bridal dantel koleksiyonu. Chantilly, Guipure, Corded, Embroidered ve daha fazlası."
+    },
+    "about": {
+      "title": "Hakkımızda — MY CLUB",
+      "description": "MY CLUB hakkında. 20 yıllık bridal dantel uzmanlığı, Istanbul."
+    },
+    "exhibitions": {
+      "title": "Fuarlar — MY CLUB",
+      "description": "MY CLUB'ın katıldığı bridal ve tekstil fuarları."
+    },
+    "contact": {
+      "title": "İletişim — MY CLUB",
+      "description": "MY CLUB ile iletişime geçin. WhatsApp, telefon veya e-posta."
+    }
+  }
+}

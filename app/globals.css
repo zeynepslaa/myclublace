@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-playfair: 'Playfair Display', Georgia, serif;
+    --font-dm-sans: 'DM Sans', system-ui, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: theme('colors.blanc');
+    color: theme('colors.charbon');
+    font-family: var(--font-dm-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Hairline borders */
+  .border-hairline {
+    border-width: 0.5px;
+  }
+
+  /* Lace texture overlay — reusable */
+  .lace-mesh {
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        theme('colors.cendre') 0,
+        theme('colors.cendre') 0.5px,
+        transparent 0,
+        transparent 18px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        theme('colors.cendre') 0,
+        theme('colors.cendre') 0.5px,
+        transparent 0,
+        transparent 18px
+      );
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Typography components */
+  .font-display {
+    font-family: var(--font-playfair);
+  }
+
+  .text-label {
+    @apply text-[11px] uppercase tracking-[0.14em] font-sans font-normal;
+  }
+
+  .text-whisper {
+    @apply text-[9px] uppercase tracking-[0.28em] font-sans font-normal;
+  }
+
+  /* Button base */
+  .btn-primary {
+    @apply inline-block text-[8px] uppercase tracking-[0.2em] font-sans
+           bg-noir text-ivoire px-6 py-[0.65rem]
+           transition-opacity duration-500 hover:opacity-80;
+  }
+
+  .btn-outline {
+    @apply inline-block text-[8px] uppercase tracking-[0.2em] font-sans
+           border border-brume text-charbon px-6 py-[0.65rem]
+           transition-all duration-500 hover:bg-noir hover:text-ivoire hover:border-noir;
+  }
+}
