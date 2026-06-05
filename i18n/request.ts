@@ -1,16 +1,17 @@
 import { getRequestConfig } from 'next-intl/server'
-import { hasLocale } from 'next-intl'
 import { routing } from './routing'
 
 // Re-export for backward compatibility — all files that import from here still work
 export type Locale = (typeof routing.locales)[number]
 export const locales = routing.locales
 
+function isLocale(value: string | undefined): value is Locale {
+  return routing.locales.includes(value as Locale)
+}
+
 export default getRequestConfig(async ({ requestLocale }) => {
   const requested = await requestLocale
-  const locale = hasLocale(routing.locales, requested)
-    ? requested
-    : routing.defaultLocale
+  const locale = isLocale(requested) ? requested : routing.defaultLocale
 
   return {
     locale,
