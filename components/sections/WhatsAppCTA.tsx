@@ -1,3 +1,5 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
 import { ScrollReveal } from '@/components/motion/ScrollReveal'
 import { createWhatsAppLink } from '@/lib/whatsapp'
