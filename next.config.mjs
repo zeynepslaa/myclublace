@@ -20,6 +20,13 @@ const nextConfig = {
       },
     ],
   },
+  webpack: (config) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      'styled-components': false,
+    }
+    return config
+  },
   async redirects() {
     return [
       {
