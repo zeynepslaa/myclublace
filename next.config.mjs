@@ -21,8 +21,10 @@ const nextConfig = {
     ],
   },
   webpack: (config) => {
-    config.resolve.fallback = {
-      ...config.resolve.fallback,
+    // styled-components is an optional peer dep of @sanity/visual-editing
+    // We don't use visual editing — mark it as empty to prevent build errors
+    config.resolve.alias = {
+      ...config.resolve.alias,
       'styled-components': false,
     }
     return config
