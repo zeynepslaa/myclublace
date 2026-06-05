@@ -3,10 +3,10 @@ import { client } from '@/sanity/lib/client'
 import { collectionSlugsQuery } from '@/sanity/lib/queries'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://myclublace.com'
-const LOCALES = ['tr', 'en']
+const LOCALES = ['tr', 'en', 'ru']
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const collectionSlugs = await client.fetch<{ slug: string }[]>(collectionSlugsQuery)
+  const collectionSlugs = await client.fetch<{ slug: string }[]>(collectionSlugsQuery).catch(() => [])
 
   const staticPages = ['', '/collections', '/about', '/exhibitions', '/contact']
 
